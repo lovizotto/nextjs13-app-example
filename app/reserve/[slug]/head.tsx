@@ -8,6 +8,3 @@ export default function Head() {
     </>
   );
 }
-// SELECT * FROM restaurant WHERE id = 4
-// prisma.restuant.findUnique(4)
-// 1SGUSUT5FT7ZdHRb
