@@ -1,12 +1,12 @@
 import Menu from "../components/Menu";
 import RestaurantNavBar from "../components/RestaurantNavBar";
 
-export default async function RestaurantMenu() {
+export default function RestaurantMenu({params}: {params: {slug: string}}) {
 
   return (
     <>
       <div className="bg-white w-[100%] rounded p-3 shadow">
-        <RestaurantNavBar />
+        <RestaurantNavBar slug={params.slug} />
         <Menu/>
       </div>
     </>
